@@ -1,4 +1,5 @@
 基于 老年人Captain 的一键唤醒程序制作
+感谢腾讯Marvis全程做牛做马（bushi
 使用本地模型VOSK进行识别 不联网
 
 ***下载地址***
@@ -9,7 +10,9 @@ https://apps.microsoft.com/detail/9mw76kfhnz0c?hl=zh-CN&gl=CN
 ***使用说明：***
 打开后默认在后台运行 任务栏找到左键打开 选择识别到指定语音唤醒后打开的程序
 推荐关闭log 不然每次打开关闭一次都要在你电脑里拉个屎（
-开机启动直接在C:\Users\**\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\下面新建一个快捷方式即可~~ 懒得加开关了
+开机启动直接在
+C:\Users\你的用户名\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\
+下新建一个VoiceWakeUp这个程序的快捷方式即可~~ 懒得加开关了
 
 
 # OneClickXiaoai
