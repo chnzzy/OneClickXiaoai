@@ -1,3 +1,17 @@
+基于 老年人Captain 的一键唤醒程序制作
+使用本地模型VOSK进行识别 不联网
+
+***下载地址***
+推荐使用Microsoft Store直接安装
+https://apps.microsoft.com/detail/9mw76kfhnz0c?hl=zh-CN&gl=CN
+打开该链接点击在 Microsoft Store 中查看即可下载安装到电脑
+
+***使用说明：***
+打开后默认在后台运行 任务栏找到左键打开 选择识别到指定语音唤醒后打开的程序
+推荐关闭log 不然每次打开关闭一次都要在你电脑里拉个屎（
+开机启动直接在C:\Users\**\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\下面新建一个快捷方式即可~~ 懒得加开关了
+
+
 # OneClickXiaoai
 一键或者语音快速唤醒PC版小爱同学，全设备兼容
 
@@ -7,9 +21,9 @@ Bilibili: 老年人Captain
 
 重大更新，支持直接语音唤醒电脑小爱同学，无需点击直接对话。
 
-注意：必须替换唤醒词为自己的文件，因为一个唤醒词只能激活三台电脑
 
-***使用说明：***
+***旧的使用说明 无视这些：***
+注意：必须替换唤醒词为自己的文件，因为一个唤醒词只能激活三台电脑
 
 下载最新版！！！
 
@@ -27,9 +41,4 @@ Bilibili: 老年人Captain
 其中Wakeup.ppn是唤醒词文件，set.ini是设置灵敏度的，xiaoai.exe就是原来那个启动小爱的工具，你也可以继续绑定鼠标宏。
 
 PS：porcupine_params_zh.pv文件是中文模型，如果你希望使用英文唤醒词，请下载官方英文模型然后重命名为porcupine_params_zh.pv替换现有的。https://github.com/Picovoice/porcupine/tree/master/lib/common
-
-***下载地址：在release中***
-小爱同学pc版安装包：
-链接: https://pan.baidu.com/s/1z3HMChFCT83h3322cyb0xg?pwd=gfu3 提取码: gfu3 复制这段内容后打开百度网盘手机App，操作更方便哦
-
 
